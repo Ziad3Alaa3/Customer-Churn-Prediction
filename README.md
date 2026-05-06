@@ -84,16 +84,16 @@ Hyperparameter tuning was performed using `GridSearchCV`.
 
 | Metric | Score |
 |---|---:|
-| Accuracy | Add your score |
-| Precision | Add your score |
-| Recall | Add your score |
-| F1-score | Add your score |
-| ROC-AUC | Add your score |
+| Accuracy | 71.50% |
+| Precision | 50.00% |
+| Recall | 3.51% |
+| F1-score | 6.56% |
+| Specificity | 98.60% |
+| Balanced Accuracy | 51.05% |
 
-> Since this is a churn prediction problem and the dataset is imbalanced, Recall and F1-score are more important than Accuracy alone.
+> Although the model achieves 71.50% accuracy, the recall score is low, meaning the model struggles to correctly detect churned customers. This is mainly due to class imbalance, where most customers belong to the non-churn class.
 
 ### Confusion Matrix
-
 ![Confusion Matrix](confusion_matrix.png)
 
 ---
