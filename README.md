@@ -129,7 +129,6 @@ Customer-Churn-Prediction/
 ├── app.py
 ├── churn_prediction_pipeline.ipynb
 ├── churn_prediction_pipeline.pkl
-├── requirements.txt
 ├── churn_distribution.png
 ├── correlation_heatmap.png
 ├── features_boxplots.png
